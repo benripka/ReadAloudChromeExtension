@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      button {
+        height: 30px;
+        width: 30px;
+        outline: none;
+      }
+    </style>
+    <script src="aws.js"></script>
+  </head>
+  <body>
+    <button id="changeColor">My button</button>
+    <script src="popup.js"></script>
+    <form>
+        AWS Access Key Id<br>
+        <input type="text" name="key_id"/>
+        AWS Secret Key <br>
+        <input type="text" name="secret_key" />
+        AWS Region <br>
+        <input type="text" name="region" />
+    </form>
+    <audio playbackRate="2" id="audioPlayback" controls>
+      <source id="audioSource" type="audio/mp3" src="">
+    </audio>
+  </body>
+
+</html>
